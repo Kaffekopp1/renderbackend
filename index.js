@@ -6,7 +6,6 @@ const app = express(),
 app.get("/", (_request, response) => {
 	response.send({ hello: "World" });
 });
-
 app.listen(port, () => {
 	console.log(`Redo på http://localhost:${port}/`);
 });
